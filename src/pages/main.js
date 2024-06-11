@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
-import sideTabImage from "../assets/image 24 (1).png";
 import mainImage from "../assets/image 24.png";
 import data from "../data.json";
 import AllNews from "../component/allNews";
@@ -51,7 +50,7 @@ const Main = ({ setDetailPageToggle, detailPageToggle }) => {
           </div>
           <div className="flex flex-col lg:flex-row">
             <div className="px-28 mt-10">
-              <img src={mainImage} className="" alt="main image" />
+              <img src={mainImage} className="" alt="" />
               <h3 className="font-800 text-3xl mt-10 font-bold">
                 Chitkara University MBA Admission Open;
               </h3>

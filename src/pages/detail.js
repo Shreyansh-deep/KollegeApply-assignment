@@ -25,7 +25,7 @@ const Detail = ({ setDetailPageToggle }) => {
       </div>
       <div className="flex gap-10">
         <div>
-          <img src={mainImage} className="" alt="main image" />
+          <img src={mainImage} className="" alt="" />
           <div className="pl-5">
             <h3 className="font-800 text-3xl mt-10 font-bold">
               Chitkara University MBA Admission Open;

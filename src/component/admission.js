@@ -12,7 +12,7 @@ const Admission = () => {
               key={index}
               className="w-1/4 md:w-1/2 lg:w-1/4 xl:w-1/4 p-1 border-white border-8 rounded-lg"
             >
-              <img src={item.image} className="w-80 h-80" />
+              <img src={item.image} className="w-80 h-80" alt=""/>
               <p className="font-semibold text-sm">{item.title}</p>
               <p className=" text-xs">{item.school}</p>
               <p className="text-gray-500 text-sm">{item.date}</p>
